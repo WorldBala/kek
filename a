@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -rf scan.log 
+rm -rf sparte.txt
+./brute 800 -b $1 passfile $2 "uname -a ; cat /etc/os-release"
